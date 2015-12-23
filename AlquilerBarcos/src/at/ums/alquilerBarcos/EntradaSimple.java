@@ -3,8 +3,6 @@ package at.ums.alquilerBarcos;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-import at.ums.barcos.Barco;
-
 	//Clase para la obtencion de datos
 public class EntradaSimple {
 

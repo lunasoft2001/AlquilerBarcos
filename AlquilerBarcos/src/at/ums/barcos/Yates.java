@@ -19,5 +19,10 @@ public class Yates extends EmbarcacionesDeportivas {
 		return ab;
 	}
 	
+	//Metodo que sobreescribe descripcionAlqiler
+		public void descripcionAlquiler(){
+			System.out.println("Desglose: 10 * " + VF + " * " + eslora + " m. de eslora + "
+					+ potencia + " CV de potencia + " + camarotes + " camarotes"  );
+		}
 
 }

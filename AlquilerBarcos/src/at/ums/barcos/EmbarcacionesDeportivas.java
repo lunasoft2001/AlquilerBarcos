@@ -18,4 +18,9 @@ public class EmbarcacionesDeportivas extends Barco {
 		return ab;
 	}
 	
+	//Metodo que sobreescribe descripcionAlqiler
+	public void descripcionAlquiler(){
+		System.out.println("Desglose: 10 * " + VF + " * " + eslora + " m. de eslora + " + potencia + " CV de potencia" );
+	}
+	
 }

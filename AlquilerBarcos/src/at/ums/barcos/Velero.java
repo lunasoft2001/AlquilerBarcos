@@ -16,6 +16,10 @@ public class Velero extends Barco {
 	public double alquilerBasico(){
 		double ab = operacionesAlquiler.alquiler10(eslora, VF) + mastiles;
 		return ab;
-				
+	}
+	
+	//Metodo que sobreescribe descripcionAlqiler
+	public void descripcionAlquiler(){
+		System.out.println("Desglose: 10 * " + VF + " * " + eslora + " m. de eslora + " + mastiles + " mástiles" );
 	}
 }

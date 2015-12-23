@@ -17,9 +17,9 @@ public class Barco {
 	
 	//Constructor default
 	public Barco(){
-		System.out.println("Constructor de " + tipo);
-		System.out.println("eslora " + eslora);
-		System.out.println("Nombre " + nombre);
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Tipo: " + tipo);
+		System.out.println("Eslora: " + eslora);
 	
 	}
 	
@@ -28,9 +28,9 @@ public class Barco {
 		setEslora(eslora);
 		setTipo(tipo);
 		setNombre(nombre);
-		System.out.println("Constructor de " + tipo);
-		System.out.println("eslora " + eslora);
-		System.out.println("Nombre " + nombre);
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Tipo: " + tipo);
+		System.out.println("Eslora: " + eslora);
 			
 	}
 	
@@ -40,6 +40,10 @@ public class Barco {
 		return ab;
 	}
 	
+	//Metodo que descibe el alquiler
+	public void descripcionAlquiler(){
+		System.out.println("Desglose: 10 * " + VF + " * " + eslora + " m. de eslora");
+	}
 
 	
 	//Metodos get/set de eslora tipo y nombre
@@ -61,8 +65,5 @@ public class Barco {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	
-	
-	
+		
 }
